@@ -10,6 +10,10 @@ class index(indexTemplate):
 
   # Page 2, Any code you write here will run before the form opens.
 
-  def sport_button_click(self, **event_args):
+  def outlined_button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('sportpage')
+
+
+
+
