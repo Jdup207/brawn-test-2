@@ -1,7 +1,7 @@
 allow_embedding: false
 package_name: Brawn_Test_2
 name: Brawn Test 2
-startup_form: Form1
+startup_form: null
 renamed: true
 runtime_options:
   version: 2
@@ -13,3 +13,4 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: {type: form, module: index}
