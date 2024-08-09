@@ -12,6 +12,19 @@ components:
     properties: {align: center, text: Sport, bold: true, role: headline}
     type: Label
     layout_properties: {grid_position: 'ZNKDYX,CWPYOM'}
+  - name: column_panel_2
+    properties: {}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'DJBAWN,OYBECV'}
+    components:
+    - name: label_3
+      properties: {text: 'Activity Feed:', align: center}
+      type: Label
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM'}
+    - name: label_2
+      properties: {text: 'Total Hours:', align: center}
+      type: Label
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
