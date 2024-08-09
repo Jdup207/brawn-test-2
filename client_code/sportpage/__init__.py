@@ -1,30 +1,28 @@
-from ._anvil_designer import indexTemplate
+from ._anvil_designer import sportpageTemplate
 from anvil import *
 import anvil.server
 
-  # Page 1, introduction page with abilities to go to all pages. With a quote.
-class index(indexTemplate):
+
+class sportpage(sportpageTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
-
-  # Page 2, Any code you write here will run before the form opens.
   
-  # How to get to my sportpage.
-  def outlined_button_1_click(self, **event_args):
+  # How to get back to Home page
+  def home_button_click(self, **event_args):
     """This method is called when the button is clicked"""
-    open_form('sportpage')
-    
-  # How to get to my habitspage.
+    open_form('index')
+
+  # How to get to Habits
   def habits_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('habitspage')
 
-  # How to get to my management page
+  # How to get to Management
   def management_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('managementpage')
 
-
-
-
+  def sport_button_click(self, **event_args):
+    #clicking on this will do nothing as the user is currently on this page
+    pass

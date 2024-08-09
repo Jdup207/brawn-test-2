@@ -3,14 +3,19 @@ container:
   type: HtmlTemplate
   properties: {html: '@theme:standard-page.html'}
 components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: label_1
+    properties: {align: center, text: Sport, bold: true, role: headline}
+    type: Label
+    layout_properties: {grid_position: 'ZNKDYX,CWPYOM'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-- name: label_1
-  properties: {text: Habits, align: center, bold: true, role: headline}
-  type: Label
-  layout_properties: {slot: default}
 - name: column_panel_1
   properties: {}
   type: ColumnPanel
@@ -19,21 +24,21 @@ components:
   - name: home_button
     properties: {text: Home}
     type: Button
-    layout_properties: {grid_position: 'BKOLIF,UFBBAF'}
+    layout_properties: {grid_position: 'BYKAAP,XYTONI'}
     event_bindings: {click: home_button_click}
   - name: sport_button
-    properties: {text: Sport}
+    properties: {text: Sport, background: '', border: solid}
     type: Button
-    layout_properties: {grid_position: 'HWQLQG,YOFSTK'}
+    layout_properties: {grid_position: 'BZPWZE,SZVMWH'}
     event_bindings: {click: sport_button_click}
-  - name: habits_button
-    properties: {text: Habits, background: '', border: solid}
-    type: Button
-    layout_properties: {grid_position: 'KOZFVO,UMCVAE'}
-    event_bindings: {click: habits_button_click}
     data_bindings: []
-  - name: management_button
-    properties: {text: Management}
+  - name: habits_button
+    properties: {text: Habits}
     type: Button
-    layout_properties: {grid_position: 'XVMSMZ,AKLXRK'}
+    layout_properties: {grid_position: 'LSOPNH,IQKZTI'}
+    event_bindings: {click: habits_button_click}
+  - name: management_button
+    properties: {text: Management, align: center}
+    type: Button
+    layout_properties: {grid_position: 'TUVNVJ,BPCPSV'}
     event_bindings: {click: management_button_click}
