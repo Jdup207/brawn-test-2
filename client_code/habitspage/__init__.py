@@ -26,3 +26,6 @@ class habitspage(habitspageTemplate):
   def habits_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('habitspage')
+
+
+  # the page itself

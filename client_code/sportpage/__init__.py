@@ -23,6 +23,10 @@ class sportpage(sportpageTemplate):
     """This method is called when the button is clicked"""
     open_form('managementpage')
 
+  # Here users already are on sport page, will do nothing on click.
   def sport_button_click(self, **event_args):
     #clicking on this will do nothing as the user is currently on this page
     pass
+
+
+  # the page itself

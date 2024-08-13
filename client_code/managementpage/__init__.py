@@ -29,3 +29,4 @@ class managementpage(managementpageTemplate):
     pass
 
 
+  # the page itself
