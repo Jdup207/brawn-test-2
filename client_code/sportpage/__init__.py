@@ -30,3 +30,7 @@ class sportpage(sportpageTemplate):
 
 
   # the page itself
+  # How to get to login activity page
+  def button_2_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('loginactivity')
