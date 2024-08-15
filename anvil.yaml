@@ -14,3 +14,12 @@ services:
   client_config: {}
   server_config: {}
 startup: {type: form, module: index}
+db_schema:
+  activites:
+    client: none
+    server: full
+    columns:
+    - name: activity_name
+      admin_ui: {width: 200, order: 0}
+      type: string
+    title: activites
