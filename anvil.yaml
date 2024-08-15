@@ -22,4 +22,13 @@ db_schema:
     - name: activity_name
       admin_ui: {width: 200, order: 0}
       type: string
+    - name: activity_location
+      admin_ui: {width: 200, order: 1}
+      type: string
+    - name: activity_time
+      admin_ui: {width: 200, order: 2}
+      type: number
+    - name: activity_skills
+      admin_ui: {width: 200, order: 3}
+      type: string
     title: activites
