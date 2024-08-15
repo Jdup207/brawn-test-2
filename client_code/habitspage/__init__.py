@@ -1,5 +1,8 @@
 from ._anvil_designer import habitspageTemplate
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 import anvil.server
 
 # Any code you write here will run before the form opens.
@@ -26,3 +29,6 @@ class habitspage(habitspageTemplate):
   def habits_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('habitspage')
+
+
+  # the page itself

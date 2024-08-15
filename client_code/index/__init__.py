@@ -1,5 +1,8 @@
 from ._anvil_designer import indexTemplate
 from anvil import *
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 import anvil.server
 
   # Page 1, introduction page with abilities to go to all pages. With a quote.

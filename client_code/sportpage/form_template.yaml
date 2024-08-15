@@ -1,7 +1,7 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {html: '@theme:standard-page.html', visible: true}
 components:
 - type: ColumnPanel
   properties: {}
@@ -9,9 +9,69 @@ components:
   layout_properties: {slot: default}
   components:
   - name: label_1
-    properties: {align: center, text: Sport, bold: true, role: headline}
+    properties: {align: center, text: Sport Activities, bold: true, role: headline}
     type: Label
     layout_properties: {grid_position: 'ZNKDYX,CWPYOM'}
+  - name: column_panel_2
+    properties: {}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'DJBAWN,OYBECV'}
+    components:
+    - name: label_3
+      properties: {text: 'Activity Feed:', align: center, bold: true, role: input-prompt, underline: true}
+      type: Label
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM RIARNW,ZOPOSH'}
+    - name: check_box_1
+      properties: {text: 50 Hours, align: center, border: '', foreground: '', allow_indeterminate: false}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM TYCWEO,FFBOEW'}
+    - name: check_box_2
+      properties: {text: 100 Hours, align: center}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM FAPUFX,CAQFKX'}
+    - name: check_box_3
+      properties: {text: 150 Hours, align: center}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM AJIRGE,MGDXAG'}
+    - name: check_box_4
+      properties: {text: 200 hours, align: center}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM SBYETM,ZWXQJX'}
+    - name: check_box_5
+      properties: {text: 250 Hours, align: center}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM ELJDAB,TBFUUH'}
+    - name: check_box_6
+      properties: {text: 300 Hours, align: center}
+      type: CheckBox
+      layout_properties: {grid_position: 'UAXQDK,ULHVNM LDODRQ,QMBQXC'}
+    - name: label_2
+      properties: {text: 'Total Hours:', align: center, bold: true, role: input-prompt, underline: true}
+      type: Label
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS MOVGNK,NUETQY'}
+    - name: rich_text_1
+      properties: {content: '138', align: center, format: markdown, font_size: 35, border: solid}
+      type: RichText
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS IPNAXN,TIWNLJ'}
+    - name: spacer_2
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS TEDPXT,UKOBQY'}
+    - name: button_1
+      properties:
+        text: "Summary of my \nActivities"
+        role: filled-button
+      type: Button
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS YTZOUH,SBSNJU'}
+    - name: spacer_1
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS GPEDHF,WARBMX'}
+    - name: button_2
+      properties: {text: Log Activities, role: filled-button}
+      type: Button
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS GUOTBH,GFYOUH'}
+      event_bindings: {click: button_2_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
