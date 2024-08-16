@@ -15,3 +15,8 @@ import anvil.server
 #   print("Hello, " + name + "!")
 #   return 42
 #
+
+@anvil.server.callable
+def log_activity(activity_data):
+  if activity_data.get('activity_name') and activity_data.get('activity_location') and activity_data.get('activity_time') and activity_data.get('activity_skills'):
+      app_tables.activites.add_row(**activity_data)

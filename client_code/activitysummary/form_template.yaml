@@ -1,0 +1,31 @@
+is_package: true
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: data_grid_1
+    properties:
+      columns:
+      - {id: JKSDUP, title: 'Activity Name:', data_key: activity_name}
+      - {id: VJQQOR, title: 'Activity Location:', data_key: activity_location}
+      - {id: OJLQEN, title: 'Activity Time:', data_key: activity_time, expand: false}
+      - {id: VHJIXL, data_key: activity_skills, title: 'Activity Skills:'}
+    type: DataGrid
+    components:
+    - name: repeating_panel_1
+      properties: {item_template: activitysummary.RowTemplate1}
+      type: RepeatingPanel
+    - name: log_activity
+      properties: {text: Log Activity, role: filled-button}
+      type: Button
+      event_bindings: {click: log_activity_click}
+    layout_properties: {grid_position: 'VIOSCE,MIUZQK'}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
