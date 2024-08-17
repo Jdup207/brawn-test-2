@@ -20,6 +20,12 @@ components:
     - name: repeating_panel_1
       properties: {item_template: activitysummary.RowTemplate1}
       type: RepeatingPanel
+    - name: spacer_1
+      properties: {height: 32}
+      type: Spacer
+    - name: spacer_2
+      properties: {height: 32}
+      type: Spacer
     - name: log_activity
       properties: {text: Log Activity, role: filled-button}
       type: Button
