@@ -22,27 +22,27 @@ components:
       type: Label
       layout_properties: {grid_position: 'UAXQDK,ULHVNM RIARNW,ZOPOSH'}
     - name: check_box_1
-      properties: {text: 50 Hours, align: center, border: '', foreground: '', allow_indeterminate: false}
+      properties: {text: '10 Hours ', align: center, border: '', foreground: '', allow_indeterminate: false}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM TYCWEO,FFBOEW'}
     - name: check_box_2
-      properties: {text: 100 Hours, align: center}
+      properties: {text: 32 Hours, align: center}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM FAPUFX,CAQFKX'}
     - name: check_box_3
-      properties: {text: 150 Hours, align: center}
+      properties: {text: 100 Hours, align: center}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM AJIRGE,MGDXAG'}
     - name: check_box_4
-      properties: {text: 200 hours, align: center}
+      properties: {text: 300 hours, align: center}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM SBYETM,ZWXQJX'}
     - name: check_box_5
-      properties: {text: 250 Hours, align: center}
+      properties: {text: 1000 Hours, align: center}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM ELJDAB,TBFUUH'}
     - name: check_box_6
-      properties: {text: 300 Hours, align: center}
+      properties: {text: 5000 Hours, align: center}
       type: CheckBox
       layout_properties: {grid_position: 'UAXQDK,ULHVNM LDODRQ,QMBQXC'}
     - name: label_2
