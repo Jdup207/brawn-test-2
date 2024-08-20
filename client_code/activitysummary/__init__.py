@@ -25,3 +25,9 @@ class activitysummary(activitysummaryTemplate):
       anvil.server.call('log_activity', item)
       #refresh the Data Grid
       self.repeating_panel_1.items = app_tables.activites.search()
+
+
+  # to go back to sport page.
+  def back_button_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('sportpage')

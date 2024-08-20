@@ -53,26 +53,25 @@ components:
       properties: {content: '138', align: center, format: markdown, font_size: 35, border: solid}
       type: RichText
       layout_properties: {grid_position: 'UAXQDK,YTBEXS IPNAXN,TIWNLJ'}
-    - name: spacer_2
+    - name: spacer_3
       properties: {height: 32}
       type: Spacer
-      layout_properties: {grid_position: 'UAXQDK,YTBEXS TEDPXT,UKOBQY'}
-    - name: button_1
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS UHEXUQ,ZZXZNZ'}
+    - name: button_2
+      properties: {text: ''}
+      type: Button
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS JPTGJY,EMYOYT'}
+    - name: summary_button
       properties:
         text: "Summary of my \nActivities"
         role: filled-button
       type: Button
       layout_properties: {grid_position: 'UAXQDK,YTBEXS YTZOUH,SBSNJU'}
-      event_bindings: {click: button_1_click}
+      event_bindings: {click: summary_button_click}
     - name: spacer_1
       properties: {height: 32}
       type: Spacer
       layout_properties: {grid_position: 'UAXQDK,YTBEXS GPEDHF,WARBMX'}
-    - name: button_2
-      properties: {text: Log Activities, role: filled-button}
-      type: Button
-      layout_properties: {grid_position: 'UAXQDK,YTBEXS GUOTBH,GFYOUH'}
-      event_bindings: {click: button_2_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
