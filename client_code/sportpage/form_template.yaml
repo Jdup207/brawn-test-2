@@ -87,7 +87,7 @@ components:
     layout_properties: {grid_position: 'BYKAAP,XYTONI'}
     event_bindings: {click: home_button_click}
   - name: sport_button
-    properties: {text: Sport, background: '', border: solid}
+    properties: {text: Sport, background: '', border: '', role: filled-button}
     type: Button
     layout_properties: {grid_position: 'BZPWZE,SZVMWH'}
     event_bindings: {click: sport_button_click}
