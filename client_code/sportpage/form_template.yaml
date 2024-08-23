@@ -8,11 +8,19 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
+  - name: label_4
+    properties: {text: Advancement in Sport, align: center, bold: true, role: headline}
+    type: Label
+    layout_properties: {grid_position: 'GTRDML,PCHREA'}
   - name: column_panel_2
     properties: {}
     type: ColumnPanel
     layout_properties: {grid_position: 'DJBAWN,OYBECV'}
     components:
+    - name: spacer_2
+      properties: {height: 32}
+      type: Spacer
+      layout_properties: {grid_position: 'NOMEZP,KIMHUC'}
     - name: label_3
       properties: {text: 'Activity Feed:', align: center, bold: true, role: input-prompt, underline: true}
       type: Label
@@ -99,6 +107,6 @@ components:
     layout_properties: {grid_position: 'TUVNVJ,BPCPSV'}
     event_bindings: {click: management_button_click}
 - name: label_1
-  properties: {align: center, text: Sport Activities, bold: true, role: headline}
+  properties: {align: center, text: 'Sport ', bold: true, role: headline}
   type: Label
   layout_properties: {slot: title}
