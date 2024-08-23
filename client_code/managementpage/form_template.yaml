@@ -7,11 +7,7 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
-  components:
-  - name: label_1
-    properties: {text: Management, align: center, bold: true, role: headline}
-    type: Label
-    layout_properties: {grid_position: 'ESAABV,WFJFAB'}
+  components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
@@ -41,3 +37,7 @@ components:
     type: Button
     layout_properties: {grid_position: 'WJMNZG,ZDLJFR'}
     event_bindings: {click: management_button_click}
+- name: label_1
+  properties: {text: Management, align: center, bold: true, role: headline}
+  type: Label
+  layout_properties: {slot: title}

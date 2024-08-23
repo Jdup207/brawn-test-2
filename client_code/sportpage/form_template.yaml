@@ -8,10 +8,6 @@ components:
   name: content_panel
   layout_properties: {slot: default}
   components:
-  - name: label_1
-    properties: {align: center, text: Sport Activities, bold: true, role: headline}
-    type: Label
-    layout_properties: {grid_position: 'ZNKDYX,CWPYOM'}
   - name: column_panel_2
     properties: {}
     type: ColumnPanel
@@ -102,3 +98,7 @@ components:
     type: Button
     layout_properties: {grid_position: 'TUVNVJ,BPCPSV'}
     event_bindings: {click: management_button_click}
+- name: label_1
+  properties: {align: center, text: Sport Activities, bold: true, role: headline}
+  type: Label
+  layout_properties: {slot: title}
