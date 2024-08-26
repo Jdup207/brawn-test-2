@@ -46,7 +46,7 @@ components:
   layout_properties: {slot: default}
   components:
   - name: label_6
-    properties: {text: Eating for peak athletic performance, align: center, bold: true, role: headline}
+    properties: {text: Eating for Peak Athletic Performance, align: center, bold: true, role: headline}
     type: Label
     layout_properties: {grid_position: 'ZSAIHN,SBSEIL'}
   - name: spacer_2
@@ -54,7 +54,7 @@ components:
     type: Spacer
     layout_properties: {grid_position: 'FFAVZZ,SASIUT'}
   - name: label_2
-    properties: {text: Food Energy, bold: true, role: input-prompt}
+    properties: {text: Food Energy, bold: true, role: title}
     type: Label
     layout_properties: {grid_position: 'TXAYKN,JYSWQZ JSQSMJ,NTMGSJ'}
   - name: label_3
@@ -66,7 +66,7 @@ components:
     type: Image
     layout_properties: {grid_position: 'TXAYKN,ROHVQX'}
   - name: label_4
-    properties: {text: Macro-nutrient > Energy content, align: left, bold: true, role: input-prompt}
+    properties: {text: Macro-nutrient > Energy content, align: left, bold: true, role: null}
     type: Label
     layout_properties: {grid_position: 'TGJJQV,RNVVUV JOZQYM,FQSKKQ'}
   - name: label_5
@@ -82,3 +82,16 @@ components:
     properties: {source: _/theme/habits02.png}
     type: Image
     layout_properties: {grid_position: 'TGJJQV,NWKROM DABHKM,BASBGT'}
+  - name: label_7
+    properties:
+      text: "Carbohydrates serve as the primary source of energy during activities of higher intensity. Healthy carbohydrate food sources include fruits, vegetables, whole-grain cereals, breads and pastas. \n\nDietary fat also plays a key role in helping individuals meet their energy needs as well as supporting healthy hormone levels. Healthy sources of fat include nuts, nut butters, avocados, olive and coconut oils. Limit use of vegetable oils such as corn, cottonseed or soybean oil. \n\nDietary protein plays a key role in muscle repair and growth. Preferred sources of protein include lean meats, eggs, dairy (yogurt, milk, cottage cheese) and legumes."
+    type: Label
+    layout_properties: {grid_position: 'YSHDTY,NXOQPS'}
+  - name: spacer_3
+    properties: {height: 54}
+    type: Spacer
+    layout_properties: {grid_position: 'YSHDTY,AOMPGS DEMAPR,LXFCYS'}
+  - name: image_3
+    properties: {source: _/theme/image_03.jpeg}
+    type: Image
+    layout_properties: {grid_position: 'YSHDTY,AOMPGS POWRUO,AXBHUV'}
