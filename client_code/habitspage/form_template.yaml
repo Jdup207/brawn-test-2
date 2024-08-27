@@ -84,7 +84,7 @@ components:
     layout_properties: {grid_position: 'TGJJQV,NWKROM DABHKM,BASBGT'}
   - name: label_7
     properties:
-      text: "Carbohydrates serve as the primary source of energy during activities of higher intensity. Healthy carbohydrate food sources include fruits, vegetables, whole-grain cereals, breads and pastas. \n\nDietary fat also plays a key role in helping individuals meet their energy needs as well as supporting healthy hormone levels. Healthy sources of fat include nuts, nut butters, avocados, olive and coconut oils. Limit use of vegetable oils such as corn, cottonseed or soybean oil. \n\nDietary protein plays a key role in muscle repair and growth. Preferred sources of protein include lean meats, eggs, dairy (yogurt, milk, cottage cheese) and legumes."
+      text: "- Carbohydrates serve as the primary source of energy during activities of higher intensity. Healthy carbohydrate food sources include fruits, vegetables, whole-grain cereals, breads and pastas. \n\n- Dietary fat also plays a key role in helping individuals meet their energy needs as well as supporting healthy hormone levels. Healthy sources of fat include nuts, nut butters, avocados, olive and coconut oils. Limit use of vegetable oils such as corn, cottonseed or soybean oil. \n\n- Dietary protein plays a key role in muscle repair and growth. Preferred sources of protein include lean meats, eggs, dairy (yogurt, milk, cottage cheese) and legumes."
     type: Label
     layout_properties: {grid_position: 'YSHDTY,NXOQPS'}
   - name: spacer_3
