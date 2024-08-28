@@ -1,97 +1,105 @@
-is_package: true
-container:
-  type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
 components:
-- type: FlowPanel
-  properties: {}
-  name: navbar_links
+- components: []
   layout_properties: {slot: nav-right}
-  components: []
-- name: column_panel_1
+  name: navbar_links
   properties: {}
-  type: ColumnPanel
-  layout_properties: {slot: left-nav}
-  components:
-  - name: home_button
+  type: FlowPanel
+- components:
+  - event_bindings: {click: home_button_click}
+    layout_properties: {grid_position: 'GDQQTI,ULTXCN BKOLIF,UFBBAF'}
+    name: home_button
     properties:
       text: |
         Home
     type: Button
-    layout_properties: {grid_position: 'GDQQTI,ULTXCN BKOLIF,UFBBAF'}
-    event_bindings: {click: home_button_click}
-  - name: sport_button
+  - event_bindings: {click: sport_button_click}
+    layout_properties: {grid_position: 'GDQQTI,ULTXCN HWQLQG,YOFSTK'}
+    name: sport_button
     properties: {text: Sport}
     type: Button
-    layout_properties: {grid_position: 'GDQQTI,ULTXCN HWQLQG,YOFSTK'}
-    event_bindings: {click: sport_button_click}
-  - name: habits_button
-    properties: {text: Habits, background: '', border: '', role: filled-button}
-    type: Button
-    layout_properties: {grid_position: 'GDQQTI,ULTXCN KOZFVO,UMCVAE'}
+  - data_bindings: []
     event_bindings: {click: habits_button_click}
-    data_bindings: []
-  - name: management_button
+    layout_properties: {grid_position: 'GDQQTI,ULTXCN KOZFVO,UMCVAE'}
+    name: habits_button
+    properties: {background: '', border: '', role: filled-button, text: Habits}
+    type: Button
+  - event_bindings: {click: management_button_click}
+    layout_properties: {grid_position: 'GDQQTI,ULTXCN XVMSMZ,AKLXRK'}
+    name: management_button
     properties: {text: Management}
     type: Button
-    layout_properties: {grid_position: 'GDQQTI,ULTXCN XVMSMZ,AKLXRK'}
-    event_bindings: {click: management_button_click}
-- name: label_1
-  properties: {align: center, text: Habits, bold: true, role: headline}
-  type: Label
-  layout_properties: {slot: title}
-- name: column_panel_2
+  layout_properties: {slot: left-nav}
+  name: column_panel_1
   properties: {}
   type: ColumnPanel
-  layout_properties: {slot: default}
-  components:
-  - name: label_6
-    properties: {text: Eating for Peak Athletic Performance, align: center, bold: true, role: headline}
+- layout_properties: {slot: title}
+  name: label_1
+  properties: {align: center, bold: true, role: headline, text: Habits}
+  type: Label
+- components:
+  - layout_properties: {grid_position: 'ZSAIHN,SBSEIL'}
+    name: label_6
+    properties: {align: center, bold: true, role: headline, text: Eating for Peak Athletic Performance}
     type: Label
-    layout_properties: {grid_position: 'ZSAIHN,SBSEIL'}
-  - name: spacer_2
+  - layout_properties: {grid_position: 'FFAVZZ,SASIUT'}
+    name: spacer_2
     properties: {height: 32}
     type: Spacer
-    layout_properties: {grid_position: 'FFAVZZ,SASIUT'}
-  - name: label_2
-    properties: {text: Food Energy, bold: true, role: title}
+  - layout_properties: {grid_position: 'TXAYKN,JYSWQZ JSQSMJ,NTMGSJ'}
+    name: label_2
+    properties: {bold: true, role: title, text: Food Energy}
     type: Label
-    layout_properties: {grid_position: 'TXAYKN,JYSWQZ JSQSMJ,NTMGSJ'}
-  - name: label_3
+  - layout_properties: {grid_position: 'TXAYKN,JYSWQZ AJVSJP,QHRSUI'}
+    name: label_3
     properties: {text: 'The energy needs of athletes exceed those of the average person. It’s not uncommon for male and female athletes, especially those still growing, to have caloric needs exceeding 2,400– 3,000 kcal and 2,200– 2,700 kcal per day, respectively. The amount of energy found within a given food is dependent on the macronutrient (carbohydrate, protein and fat) content of the item.'}
     type: Label
-    layout_properties: {grid_position: 'TXAYKN,JYSWQZ AJVSJP,QHRSUI'}
-  - name: image_1
+  - layout_properties: {grid_position: 'TXAYKN,ROHVQX'}
+    name: image_1
     properties: {source: _/theme/habits01.png}
     type: Image
-    layout_properties: {grid_position: 'TXAYKN,ROHVQX'}
-  - name: label_4
-    properties: {text: Macro-nutrient > Energy content, align: left, bold: true, role: null}
+  - layout_properties: {grid_position: 'TGJJQV,RNVVUV JOZQYM,FQSKKQ'}
+    name: label_4
+    properties: {align: left, bold: true, role: null, text: Macro-nutrient > Energy content}
     type: Label
-    layout_properties: {grid_position: 'TGJJQV,RNVVUV JOZQYM,FQSKKQ'}
-  - name: label_5
+  - layout_properties: {grid_position: 'TGJJQV,RNVVUV KJIZGI,OXGJKK'}
+    name: label_5
     properties:
       text: "Carbohydrates > 4 kcal/gram\nProtein > 4 kcal/gram\nAlcohol > 7 kcal/gram\nFat > kcal/gram\n\n* Although alcohol is not \nconsidered a macronutrient, it’s important for athletes to realize that it is higher in calories and can contribute to undesirable weight gain."
     type: Label
-    layout_properties: {grid_position: 'TGJJQV,RNVVUV KJIZGI,OXGJKK'}
-  - name: spacer_1
+  - layout_properties: {grid_position: 'TGJJQV,NWKROM VGLTDU,YQAWXN'}
+    name: spacer_1
     properties: {height: 18.600006103515625}
     type: Spacer
-    layout_properties: {grid_position: 'TGJJQV,NWKROM VGLTDU,YQAWXN'}
-  - name: image_2
+  - layout_properties: {grid_position: 'TGJJQV,NWKROM DABHKM,BASBGT'}
+    name: image_2
     properties: {source: _/theme/habits02.png}
     type: Image
-    layout_properties: {grid_position: 'TGJJQV,NWKROM DABHKM,BASBGT'}
-  - name: label_7
+  - layout_properties: {grid_position: 'YSHDTY,NXOQPS'}
+    name: label_7
     properties:
       text: "Carbohydrates serve as the primary source of energy during activities of higher intensity. Healthy carbohydrate food sources include fruits, vegetables, whole-grain cereals, breads and pastas. \n\nDietary fat also plays a key role in helping individuals meet their energy needs as well as supporting healthy hormone levels. Healthy sources of fat include nuts, nut butters, avocados, olive and coconut oils. Limit use of vegetable oils such as corn, cottonseed or soybean oil. \n\nDietary protein plays a key role in muscle repair and growth. Preferred sources of protein include lean meats, eggs, dairy (yogurt, milk, cottage cheese) and legumes."
     type: Label
-    layout_properties: {grid_position: 'YSHDTY,NXOQPS'}
-  - name: spacer_3
+  - layout_properties: {grid_position: 'YSHDTY,AOMPGS DEMAPR,LXFCYS'}
+    name: spacer_3
     properties: {height: 54}
     type: Spacer
-    layout_properties: {grid_position: 'YSHDTY,AOMPGS DEMAPR,LXFCYS'}
-  - name: image_3
+  - layout_properties: {grid_position: 'YSHDTY,AOMPGS POWRUO,AXBHUV'}
+    name: image_3
     properties: {source: _/theme/image_03.jpeg}
     type: Image
-    layout_properties: {grid_position: 'YSHDTY,AOMPGS POWRUO,AXBHUV'}
+  - layout_properties: {grid_position: 'BLWJOQ,TLUIWO'}
+    name: spacer_4
+    properties: {height: 38}
+    type: Spacer
+  - layout_properties: {grid_position: 'TXEMXR,AMQUZH'}
+    name: label_8
+    properties: {text: Tips to Excel}
+    type: Label
+  layout_properties: {slot: default}
+  name: column_panel_2
+  properties: {}
+  type: ColumnPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
