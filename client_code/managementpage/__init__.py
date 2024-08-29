@@ -31,5 +31,8 @@ class managementpage(managementpageTemplate):
     #clicking on this will do nothing as the user is currently on this page
     pass
 
-
+  def log_date_button_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    open_form('logdate')
   # the page itself
+

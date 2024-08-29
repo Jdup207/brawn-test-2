@@ -32,10 +32,33 @@ components:
   name: label_1
   properties: {align: center, bold: true, role: headline, text: Management}
   type: Label
-- layout_properties: {slot: default}
-  name: label_2
+- components:
+  - components:
+    - name: repeating_panel_1
+      properties: {item_template: activitysummary.RowTemplate1}
+      type: RepeatingPanel
+    layout_properties: {grid_position: 'SMGIJS,PZKJYO'}
+    name: data_grid_1
+    properties:
+      columns:
+      - {data_key: date, id: JKSDUP, title: 'Date:'}
+      - {data_key: description, id: VJQQOR, title: 'Description:'}
+      role: tonal-data-grid
+    type: DataGrid
+  - components:
+    - event_bindings: {click: log_date_button_click}
+      layout_properties: {grid_position: 'ENWPXV,XXAFIP'}
+      name: log_date_button
+      properties: {role: filled-button, text: Log Date}
+      type: Button
+    layout_properties: {grid_position: 'QJCDOX,SLAVQQ'}
+    name: outlined_card_1
+    properties: {role: tonal-card}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: column_panel_2
   properties: {}
-  type: Label
+  type: ColumnPanel
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
