@@ -4,7 +4,7 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
-
+from ..logdate import logdate
 
 class managementpage(managementpageTemplate):
   def __init__(self, **properties):
@@ -31,5 +31,16 @@ class managementpage(managementpageTemplate):
     #clicking on this will do nothing as the user is currently on this page
     pass
 
+  def log_date_button_click(self, **event_args):
+    """This method is called when the button is clicked"""
+    item = {}
+    editing_form = logdate(item=item)
 
-  # the page itself
+    #if the user clicks OK on the alert
+    if alert(content=editing_form, large=True):
+      #add the movie to the Data Table with the filled in information
+      anvil.server.call('log_management', item)
+      #refresh the Data Grid
+      self.repeating_panel_1.items = app_tables.management.search()
+
+

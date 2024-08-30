@@ -99,10 +99,18 @@ components:
     name: spacer_5
     properties: {height: 32}
     type: Spacer
-  - layout_properties: {grid_position: 'CWVIOO,SJVZPM'}
+  - layout_properties: {grid_position: 'CWVIOO,SJVZPM UGRRIV,RXPRXG'}
+    name: spacer_6
+    properties: {height: 131.39996337890625}
+    type: Spacer
+  - layout_properties: {grid_position: 'CWVIOO,SJVZPM YCONLU,FLDHNF'}
     name: image_4
-    properties: {}
+    properties: {source: _/theme/image_04.jpeg}
     type: Image
+  - layout_properties: {grid_position: 'CWVIOO,SJVZPM YHSZSC,XIFASU'}
+    name: spacer_7
+    properties: {height: 308}
+    type: Spacer
   - layout_properties: {grid_position: 'CWVIOO,IFZMCB'}
     name: label_9
     properties:
