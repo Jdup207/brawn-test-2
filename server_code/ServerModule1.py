@@ -20,3 +20,8 @@ import anvil.server
 def log_activity(activity_data):
   if activity_data.get('activity_name') and activity_data.get('activity_location') and activity_data.get('activity_time') and activity_data.get('activity_skills'):
       app_tables.activites.add_row(**activity_data)
+
+@anvil.server.callable
+def log_management(management_data):
+  if management_data.get('date') and management_data.get('description'):
+      app_tables.management.add_row(**management_data)

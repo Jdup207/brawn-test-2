@@ -10,9 +10,7 @@ components:
         name: label_1
         properties: {bold: true, text: 'Date:'}
         type: Label
-      - data_bindings:
-        - {code: 'self.item[''date'']', property: text, writeback: true}
-        layout_properties: {grid_position: 'DTVTEW,UDAQFR WZLOJJ,LCIYED'}
+      - layout_properties: {grid_position: 'DTVTEW,UDAQFR WZLOJJ,LCIYED'}
         name: text_box_2
         properties: {}
         type: TextBox
@@ -20,9 +18,7 @@ components:
         name: label_2
         properties: {bold: true, text: Description}
         type: Label
-      - data_bindings:
-        - {code: 'self.item[''description'']', property: text, writeback: true}
-        layout_properties: {grid_position: 'DTVTEW,PKDANI NQXDVM,WUOCLT'}
+      - layout_properties: {grid_position: 'DTVTEW,PKDANI NQXDVM,WUOCLT'}
         name: text_box_1
         properties: {}
         type: TextBox
@@ -52,9 +48,15 @@ components:
     name: outlined_card_2
     properties: {role: tonal-card}
     type: ColumnPanel
-  layout_properties: {grid_position: 'JXWWFE,LDXNPX'}
+  layout_properties: {slot: default}
   name: content_panel
   properties: {}
   type: ColumnPanel
-container: {type: ColumnPanel}
+- layout_properties: {slot: nav-right}
+  name: navbar_links
+  properties: {}
+  type: FlowPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
 is_package: true
