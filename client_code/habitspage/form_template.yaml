@@ -93,7 +93,7 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'TXEMXR,AMQUZH'}
     name: label_8
-    properties: {align: center, bold: true, role: headline, text: Tips to Excel with proper sports nutrition}
+    properties: {align: left, bold: true, role: title, text: Tips to Excel with proper sports nutrition}
     type: Label
   - layout_properties: {grid_position: 'OHEGZZ,MCFBPL'}
     name: spacer_5
@@ -109,12 +109,12 @@ components:
     type: Image
   - layout_properties: {grid_position: 'CWVIOO,SJVZPM YHSZSC,XIFASU'}
     name: spacer_7
-    properties: {height: 308}
+    properties: {height: 166}
     type: Spacer
   - layout_properties: {grid_position: 'CWVIOO,IFZMCB'}
     name: label_9
     properties:
-      align: center
+      align: left
       text: |
         1. Make a plan to eat a variety of fruits and vegetables daily. The goal is to eat at least five servings per day, and include varieties of fruit and vegetable color. One serving is approximately the size of a baseball. Fruits and vegetables are filled with the energy and nutrients necessary for training and recovery. Plus, these antioxidant-rich foods will help you combat illness like a cold or the flu.
 
@@ -124,6 +124,100 @@ components:
         3. Stay hydrated with beverages, as a 2% drop in hydration levels can negatively impact performance. Options include milk, water, 100% fruit juice and sport drinks. However, realize that sport drinks and 100% fruit juice tend to be higher in overall sugar content and, in the case of fruit juice, lack many of the health benefits present in its whole food counterpart. Also, be sure not to confuse sports drinks such as Gatorade with "energy" drinks such as Red Bull and similar beverages.
 
         4. Stick with whole food options as much as possible as opposed to highly processed foods.
+    type: Label
+  - layout_properties: {grid_position: 'SRLGYI,DDLMKF'}
+    name: label_10
+    properties: {align: left, bold: true, role: title, text: Planning a nutritious meal}
+    type: Label
+  - layout_properties: {grid_position: 'JMBCGF,URDQMY'}
+    name: spacer_9
+    properties: {height: 37.5999755859375}
+    type: Spacer
+  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ IFFASZ,GLNRGJ'}
+    name: label_11
+    properties: {text: 'Without adequate calories from the healthiest food sources, you will struggle to achieve your performance goals. Plan a nutritious meal by choosing at least one food from each category.'}
+    type: Label
+  - layout_properties: {grid_position: 'PQFXAO,TKWKYB'}
+    name: image_5
+    properties: {source: _/theme/image_05.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'HNSBAI,JPBEFX'}
+    name: label_12
+    properties: {bold: true, text: Carbohydrates}
+    type: Label
+  - layout_properties: {grid_position: 'HNSBAI,VDLTOT'}
+    name: label_13
+    properties: {bold: true, text: Protein}
+    type: Label
+  - layout_properties: {grid_position: 'HNSBAI,KUELCF'}
+    name: label_14
+    properties: {bold: true, text: Healthy fat}
+    type: Label
+  - layout_properties: {grid_position: 'KCTXNI,QCYNXY'}
+    name: label_15
+    properties:
+      text: "- Fruit\n- Oatmeal\n- Starchy vegetables \n- Non-starchy vegetables \n- Whole-grain bread or crackers\n- High-fiber, non-sugary cereals\n- Quinoa\n- Brown or wild rice"
+    type: Label
+  - layout_properties: {grid_position: 'KCTXNI,AWLMHL'}
+    name: label_16
+    properties:
+      text: |-
+        - Whole eggs
+        - Greek yogurt
+        - Milk
+        - String cheese
+        - Lean red meats
+        - Poultry
+        - Fish
+        - Hummus
+    type: Label
+  - layout_properties: {grid_position: 'KCTXNI,VFBNTU'}
+    name: label_17
+    properties:
+      text: "- Avocado\n- Peanut butter\n- Nuts and seeds\n- Olive or canola oil \n- Coconut oil\n- Flax seed "
+    type: Label
+  - layout_properties: {grid_position: 'FXOYXR,MRVDCX'}
+    name: spacer_8
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'ZAMRFU,IUUSNJ'}
+    name: label_18
+    properties: {bold: true, role: title, text: Hydration}
+    type: Label
+  - layout_properties: {grid_position: 'EYHKNN,VZRAII'}
+    name: spacer_11
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'XWRGSL,PPGGKF'}
+    name: label_19
+    properties:
+      text: |-
+        Adequate hydration is a key element in sports performance. Most athletes benefit from developing a personal hydration plan. A general rule for training is to consume a minimum:
+
+        - Two cups of fluid prior to training
+        - Four to six ounces of fluid every 15 minutes of exercise
+
+        Your post event/training hydration needs are impacted by your overall pre- to post-fluid losses. To properly assess, weigh yourself immediately prior to and after a workout. For every pound of weight lost, replace with 16 ounces of fluid. Best hydration choices include water, low-fat milk or 100% juice. Sports beverages are best reserved for competition, where quick hydration and electrolyte replacement are necessary.
+    type: Label
+  - layout_properties: {grid_position: 'XWRGSL,EMSXGL OYCVYP,CASIXD'}
+    name: spacer_12
+    properties: {height: 50.399993896484375}
+    type: Spacer
+  - layout_properties: {grid_position: 'XWRGSL,EMSXGL AIRXBA,APHLXE'}
+    name: image_6
+    properties: {source: _/theme/image_06.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'EVUFQK,KAFBBA'}
+    name: spacer_10
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'TUPTNT,ASSXWI'}
+    name: label_20
+    properties: {bold: true, role: title, text: Game Day nutrition}
+    type: Label
+  - layout_properties: {grid_position: 'VMCZBG,NOQGNV'}
+    name: label_21
+    properties: {}
     type: Label
   layout_properties: {slot: default}
   name: column_panel_2
