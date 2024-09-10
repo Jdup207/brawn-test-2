@@ -97,21 +97,9 @@ components:
     type: Label
   - layout_properties: {grid_position: 'OHEGZZ,MCFBPL'}
     name: spacer_5
-    properties: {height: 32}
+    properties: {height: 9}
     type: Spacer
-  - layout_properties: {grid_position: 'CWVIOO,SJVZPM UGRRIV,RXPRXG'}
-    name: spacer_6
-    properties: {height: 131.39996337890625}
-    type: Spacer
-  - layout_properties: {grid_position: 'CWVIOO,SJVZPM YCONLU,FLDHNF'}
-    name: image_4
-    properties: {source: _/theme/image_04.jpeg}
-    type: Image
-  - layout_properties: {grid_position: 'CWVIOO,SJVZPM YHSZSC,XIFASU'}
-    name: spacer_7
-    properties: {height: 166}
-    type: Spacer
-  - layout_properties: {grid_position: 'CWVIOO,IFZMCB'}
+  - layout_properties: {grid_position: 'YCONLU,BFNJMS'}
     name: label_9
     properties:
       align: left
@@ -125,22 +113,42 @@ components:
 
         4. Stick with whole food options as much as possible as opposed to highly processed foods.
     type: Label
+  - layout_properties: {grid_position: 'YCONLU,RXKEXS ALDRIA,LWSEYB'}
+    name: spacer_6
+    properties: {height: 140.20001220703125}
+    type: Spacer
+  - layout_properties: {grid_position: 'YCONLU,RXKEXS AVWIXR,NCHZXM'}
+    name: image_4
+    properties: {source: _/theme/image_04.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'ECKEYA,FAUISY'}
+    name: spacer_19
+    properties: {height: 32}
+    type: Spacer
   - layout_properties: {grid_position: 'SRLGYI,DDLMKF'}
     name: label_10
     properties: {align: left, bold: true, role: title, text: Planning a nutritious meal}
     type: Label
   - layout_properties: {grid_position: 'JMBCGF,URDQMY'}
     name: spacer_9
-    properties: {height: 37.5999755859375}
+    properties: {height: 11.20001220703125}
     type: Spacer
-  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ IFFASZ,GLNRGJ'}
+  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ LQVFFJ,XYJVNX'}
+    name: spacer_21
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ MEKYTX,RZILGC'}
     name: label_11
     properties: {text: 'Without adequate calories from the healthiest food sources, you will struggle to achieve your performance goals. Plan a nutritious meal by choosing at least one food from each category.'}
     type: Label
-  - layout_properties: {grid_position: 'PQFXAO,TKWKYB'}
+  - layout_properties: {grid_position: 'PQFXAO,TKWKYB AFQTVM,TSJQRZ'}
     name: image_5
     properties: {source: _/theme/image_05.jpeg}
     type: Image
+  - layout_properties: {grid_position: 'PQFXAO,TKWKYB MIYOWA,CWQZWD'}
+    name: spacer_20
+    properties: {height: 32}
+    type: Spacer
   - layout_properties: {grid_position: 'HNSBAI,JPBEFX'}
     name: label_12
     properties: {bold: true, text: Carbohydrates}
@@ -186,7 +194,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'EYHKNN,VZRAII'}
     name: spacer_11
-    properties: {height: 32}
+    properties: {height: 6.399932861328125}
     type: Spacer
   - layout_properties: {grid_position: 'XWRGSL,PPGGKF'}
     name: label_19
@@ -217,7 +225,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'KFNICA,MQMHQV'}
     name: spacer_13
-    properties: {height: 32}
+    properties: {height: 8}
     type: Spacer
   - layout_properties: {grid_position: 'VMCZBG,NOQGNV'}
     name: label_21
@@ -249,7 +257,7 @@ components:
     type: Label
   - layout_properties: {grid_position: 'IQBGPW,LLJUFJ'}
     name: spacer_16
-    properties: {height: 32}
+    properties: {height: 6}
     type: Spacer
   - layout_properties: {grid_position: 'UOOZZY,AOTJQK'}
     name: label_23
@@ -259,6 +267,14 @@ components:
 
         Choose energy-packed foods such as whole grain crackers with low-fat cheese, tortilla wraps with veggies and lean meat, hard-boiled eggs, vegetable or bean soups, small boxes of non-sugary cereal, fresh fruit, mini-whole wheat bagels with peanut butter, pita bread with hummus or pasta with grilled chicken. Pair any of these options with fruit/vegetable and milk and you’ve got a great meal.
     type: Label
+  - layout_properties: {grid_position: 'UOOZZY,OBCYVW CCSVNT,DCPOQJ'}
+    name: spacer_18
+    properties: {height: 18.399932861328125}
+    type: Spacer
+  - layout_properties: {grid_position: 'UOOZZY,OBCYVW NTRIGS,AMLHPJ'}
+    name: image_9
+    properties: {source: _/theme/images_08.jpeg}
+    type: Image
   - layout_properties: {grid_position: 'MAFOLG,JSYFDY'}
     name: label_24
     properties: {bold: true, text: Healthy food choices > Not-so-healthy food choices}
@@ -267,13 +283,39 @@ components:
     name: label_25
     properties:
       text: |-
-        - Grilled chicken, turkey or fish >-  - Fried chicken or fish
-        Lean beef or pork > Burgers, sausage, bacon
-        Fruits, vegetables, salads, veggie-based soups > French fries, fried rice, Alfredo or cheese sauce
-        Nuts, trail mix, seeds or peanut butter > Chips, cheese curls, pork rinds
-        Eggs or egg substitutes > Omelets loaded with cheese, hash browns and sausage
-        Who grain breads, rice and pasta > Highly processed white bread, rice and pasta
-        Dairy products > Dairy products with excessive added sugars, like ice cream
+        - Grilled chicken, turkey or fish > Fried chicken or fish
+
+        - Lean beef or pork > Burgers, sausage, bacon
+
+        - Fruits, vegetables, salads, veggie-based soups > French fries, fried rice, Alfredo or cheese sauce
+
+        - Nuts, trail mix, seeds or peanut butter > Chips, cheese curls, pork rinds
+
+        - Eggs or egg substitutes > Omelets loaded with cheese, hash browns and sausage
+
+        - Who grain breads, rice and pasta > Highly processed white bread, rice and pasta
+
+        - Dairy products > Dairy products with excessive added sugars, like ice cream
+    type: Label
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA ENXPMY,OPFIET'}
+    name: spacer_17
+    properties: {height: 64}
+    type: Spacer
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA VDHVMN,NBBCNQ'}
+    name: image_8
+    properties: {source: _/theme/images_09.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'PLJMMA,QDHRUO'}
+    name: spacer_7
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'DUITBE,IJQCHB'}
+    name: label_26
+    properties:
+      text: |-
+        As you get closer to the competition, make your meals smaller, removing fats and dairy products. Fibrous carbohydrates can be beneficial as these tend to cause GI disturbances.
+
+        The key thing with “pre-event” nutrition is making sure that you’ve tested it out before game day. Try the pre-meal/snack protocol in advance to make sure you tolerate it well.
     type: Label
   layout_properties: {slot: default}
   name: column_panel_2
