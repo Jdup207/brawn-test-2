@@ -41,14 +41,16 @@ components:
       name: label_2
       properties: {align: center, bold: true, role: input-prompt, text: 'Total Hours:', underline: true}
       type: Label
-    - layout_properties: {grid_position: 'UAXQDK,YTBEXS IPNAXN,TIWNLJ'}
-      name: rich_text_1
-      properties: {align: center, border: solid, content: '138', font_size: 35, format: markdown}
-      type: RichText
     - layout_properties: {grid_position: 'UAXQDK,YTBEXS UHEXUQ,ZZXZNZ'}
       name: spacer_3
       properties: {height: 32}
       type: Spacer
+    - data_bindings:
+      - {code: '', property: tooltip, writeback: false}
+      layout_properties: {grid_position: 'UAXQDK,YTBEXS ZSHYZD,YGTUNW'}
+      name: text_area_1
+      properties: {align: center, font: '', font_size: 35, height: 71.20001220703125, italic: false, role: outlined}
+      type: TextArea
     - layout_properties: {grid_position: 'UAXQDK,YTBEXS JPTGJY,EMYOYT'}
       name: button_2
       properties: {text: ''}
