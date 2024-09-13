@@ -16,3 +16,7 @@ class logdate(logdateTemplate):
   def back_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('managementpage')
+
+  def text_box_2_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
