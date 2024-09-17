@@ -1,10 +1,11 @@
-  from ._anvil_designer import managementpageTemplate
+from ._anvil_designer import managementpageTemplate
 from anvil import *
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
 from ..logdate import logdate
+from ..logdate_1 import logdate_1
 
 class managementpage(managementpageTemplate):
   def __init__(self, **properties):
@@ -34,7 +35,7 @@ class managementpage(managementpageTemplate):
   def log_date_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     item = {}
-    editing_form = logdate(item=item)
+    editing_form = logdate_1(item=item)
 
     #if the user clicks OK on the alert
     if alert(content=editing_form, large=True):
