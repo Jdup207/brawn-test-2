@@ -11,6 +11,8 @@ class activitysummary(activitysummaryTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
+        #refresh the Data Grid
+    self.repeating_panel_1.items = app_tables.activites.search()
 
     # Any code you write here will run before the form opens.
 

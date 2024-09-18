@@ -11,6 +11,8 @@ class managementpage(managementpageTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
+    #refresh the Data Grid
+    self.repeating_panel_1.items = app_tables.management.search()
 
   # How to get back to Home page
   def home_button_click(self, **event_args):
