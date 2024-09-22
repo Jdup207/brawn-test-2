@@ -17,6 +17,17 @@ db_schema:
       type: string
     server: full
     title: activites
+  management:
+    client: search
+    columns:
+    - admin_ui: {order: 1, width: 200}
+      name: description
+      type: string
+    - admin_ui: {order: 2, width: 200}
+      name: date
+      type: string
+    server: full
+    title: management
 dependencies: []
 name: Brawn Official
 package_name: Brawn_Official

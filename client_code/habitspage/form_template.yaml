@@ -1,6 +1,5 @@
 components:
-- components: []
-  layout_properties: {slot: nav-right}
+- layout_properties: {slot: nav-right}
   name: navbar_links
   properties: {}
   type: FlowPanel
@@ -17,8 +16,7 @@ components:
     name: sport_button
     properties: {text: Sport}
     type: Button
-  - data_bindings: []
-    event_bindings: {click: habits_button_click}
+  - event_bindings: {click: habits_button_click}
     layout_properties: {grid_position: 'GDQQTI,ULTXCN KOZFVO,UMCVAE'}
     name: habits_button
     properties: {background: '', border: '', role: filled-button, text: Habits}
@@ -39,7 +37,7 @@ components:
 - components:
   - layout_properties: {grid_position: 'ZSAIHN,SBSEIL'}
     name: label_6
-    properties: {align: center, bold: true, role: headline, text: Eating for Peak Athletic Performance}
+    properties: {align: center, background: 'theme:Primary', bold: true, role: headline, text: Eating for Peak Athletic Performance}
     type: Label
   - layout_properties: {grid_position: 'FFAVZZ,SASIUT'}
     name: spacer_2
@@ -93,7 +91,226 @@ components:
     type: Spacer
   - layout_properties: {grid_position: 'TXEMXR,AMQUZH'}
     name: label_8
-    properties: {text: Tips to Excel}
+    properties: {bold: true, text: Tips to Excel with Proper sports nutrition}
+    type: Label
+  - layout_properties: {grid_position: 'OHEGZZ,MCFBPL'}
+    name: spacer_5
+    properties: {height: 9}
+    type: Spacer
+  - layout_properties: {grid_position: 'YCONLU,BFNJMS'}
+    name: label_9
+    properties:
+      align: left
+      text: |
+        1. Make a plan to eat a variety of fruits and vegetables daily. The goal is to eat at least five servings per day, and include varieties of fruit and vegetable color. One serving is approximately the size of a baseball. Fruits and vegetables are filled with the energy and nutrients necessary for training and recovery. Plus, these antioxidant-rich foods will help you combat illness like a cold or the flu.
+
+        2. Choose whole grain carbohydrates sources such as whole-wheat bread or pasta and fiber-rich cereals as power-packed energy sources. Limit the refined grains and sugars such as sugary cereals, white breads and bagels. You'll benefit more from whole-grain products.
+        Choose healthy sources of protein such as chicken, turkey, fish, peanut butter, eggs, nuts and legumes.
+
+        3. Stay hydrated with beverages, as a 2% drop in hydration levels can negatively impact performance. Options include milk, water, 100% fruit juice and sport drinks. However, realize that sport drinks and 100% fruit juice tend to be higher in overall sugar content and, in the case of fruit juice, lack many of the health benefits present in its whole food counterpart. Also, be sure not to confuse sports drinks such as Gatorade with "energy" drinks such as Red Bull and similar beverages.
+
+        4. Stick with whole food options as much as possible as opposed to highly processed foods.
+    type: Label
+  - layout_properties: {grid_position: 'YCONLU,RXKEXS ALDRIA,LWSEYB'}
+    name: spacer_6
+    properties: {height: 88.79998779296875}
+    type: Spacer
+  - layout_properties: {grid_position: 'YCONLU,RXKEXS AVWIXR,NCHZXM'}
+    name: image_4
+    properties: {source: _/theme/image_04.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'ECKEYA,FAUISY'}
+    name: spacer_19
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'PLKXXH,IUTLMZ'}
+    name: label_10
+    properties: {align: left, bold: true, role: title, text: Planning a nutritious meal}
+    type: Label
+  - layout_properties: {grid_position: 'KFNICA,MQMHQV'}
+    name: spacer_13
+    properties: {height: 8}
+    type: Spacer
+  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ LQVFFJ,XYJVNX'}
+    name: spacer_21
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'DLPXQR,QPWFHA PMOGQN,NPMDPP'}
+    name: label_14
+    properties: {bold: true, text: Healthy fat}
+    type: Label
+  - layout_properties: {grid_position: 'DLPXQR,QPWFHA DWQBBT,YALMNX'}
+    name: label_15
+    properties:
+      text: "- Fruit\n- Oatmeal\n- Starchy vegetables \n- Non-starchy vegetables \n- Whole-grain bread or crackers\n- High-fiber, non-sugary cereals\n- Quinoa\n- Brown or wild rice"
+    type: Label
+  - layout_properties: {grid_position: 'DLPXQR,ANSIPC RNOVHA,GZJPGP'}
+    name: label_13
+    properties: {bold: true, text: Protein}
+    type: Label
+  - layout_properties: {grid_position: 'DLPXQR,ANSIPC ZRZDDS,INVYFB'}
+    name: label_16
+    properties:
+      align: left
+      text: |-
+        - Whole eggs
+        - Greek yogurt
+        - Milk
+        - String cheese
+        - Lean red meats
+        - Poultry
+        - Fish
+        - Hummus
+    type: Label
+  - layout_properties: {grid_position: 'DLPXQR,CPBIED ENYOTY,MGQCSG'}
+    name: label_12
+    properties: {bold: true, text: Carbohydrates}
+    type: Label
+  - layout_properties: {grid_position: 'DLPXQR,CPBIED SSXDXU,PTBYWI'}
+    name: label_17
+    properties:
+      text: "- Avocado\n- Peanut butter\n- Nuts and seeds\n- Olive or canola oil \n- Coconut oil\n- Flax seed "
+    type: Label
+  - layout_properties: {grid_position: 'JPIDUP,XTTESN'}
+    name: spacer_22
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'ZODQVK,XDMSLD'}
+    name: label_18
+    properties: {bold: true, role: title, text: Hydration}
+    type: Label
+  - layout_properties: {grid_position: 'VMCZBG,NOQGNV KMHBBY,DPMPSN'}
+    name: label_19
+    properties:
+      text: |-
+        Adequate hydration is a key element in sports performance. Most athletes benefit from developing a personal hydration plan. A general rule for training is to consume a minimum:
+
+        - Two cups of fluid prior to training
+        - Four to six ounces of fluid every 15 minutes of exercise
+
+        Your post event/training hydration needs are impacted by your overall pre- to post-fluid losses. To properly assess, weigh yourself immediately prior to and after a workout. For every pound of weight lost, replace with 16 ounces of fluid. Best hydration choices include water, low-fat milk or 100% juice. Sports beverages are best reserved for competition, where quick hydration and electrolyte replacement are necessary.
+    type: Label
+  - layout_properties: {grid_position: 'VMCZBG,NOQGNV UJBGHB,ZUSTMP'}
+    name: spacer_7
+    properties: {height: 39.199981689453125}
+    type: Spacer
+  - layout_properties: {grid_position: 'VMCZBG,NOQGNV BMFEKS,YIJNKE'}
+    name: label_20
+    properties: {bold: true, role: title, text: Game Day nutrition}
+    type: Label
+  - layout_properties: {grid_position: 'VMCZBG,NOQGNV CYPNII,UBCENT'}
+    name: label_21
+    properties:
+      text: |-
+        There are a few golden rules when it comes to eating on game day:
+
+        - Remember, proper nutrition for the "big tournament/race/meet" does not happen on the day of the event alone. It happens the days, weeks and months leading up to the competition
+
+        - Never experiment with a new dietary/supplement protocol on game day. First, try it out prior to a practice/training session to make sure you tolerate it well.
+
+        - As you get closer to the game/competition, make your meals smaller. Additionally, you may want to limit dairy, fat and fibrous carbohydrate sources during the last 60 to 90 minutes pre-event/practice, as these can cause GI issues.
+    type: Label
+  - layout_properties: {grid_position: 'JMBCGF,URDQMY'}
+    name: spacer_9
+    properties: {height: 37.399993896484375}
+    type: Spacer
+  - layout_properties: {grid_position: 'PQFXAO,TKWKYB AFQTVM,TSJQRZ'}
+    name: image_5
+    properties: {source: _/theme/image_05.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'PQFXAO,TKWKYB MIYOWA,CWQZWD'}
+    name: spacer_20
+    properties: {height: 32}
+    type: Spacer
+  - layout_properties: {grid_position: 'XHMLPC,GOAXCJ'}
+    name: label_22
+    properties: {bold: true, role: title, text: On-the-go eating}
+    type: Label
+  - layout_properties: {grid_position: 'PQFXAO,NZTSMQ MEKYTX,RZILGC'}
+    name: label_11
+    properties: {text: 'Without adequate calories from the healthiest food sources, you will struggle to achieve your performance goals. Plan a nutritious meal by choosing at least one food from each category.'}
+    type: Label
+  - layout_properties: {grid_position: 'VMCZBG,BEULOI DTBUWU,XWCLLK'}
+    name: spacer_14
+    properties: {height: 59}
+    type: Spacer
+  - layout_properties: {grid_position: 'VMCZBG,BEULOI JCDKPS,ULZYLH'}
+    name: image_6
+    properties: {source: _/theme/image_06.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'VMCZBG,BEULOI CMWFQD,REIPSI'}
+    name: spacer_23
+    properties: {height: 189.19998168945312}
+    type: Spacer
+  - layout_properties: {grid_position: 'VMCZBG,BEULOI TSUIAL,ZLTWOQ'}
+    name: image_7
+    properties: {source: _/theme/images_07.png}
+    type: Image
+  - layout_properties: {grid_position: 'VMCZBG,BEULOI CUGDLL,WPONZR'}
+    name: spacer_11
+    properties: {height: 126.39996337890625}
+    type: Spacer
+  - layout_properties: {grid_position: 'FXOYXR,MRVDCX'}
+    name: spacer_8
+    properties: {height: 5.399993896484375}
+    type: Spacer
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA NRSMMS,XNWMXX'}
+    name: label_23
+    properties:
+      text: |-
+        Peak performance during competition means eating nutritious food while traveling. Relying on the concession stand for food during competition is an almost certain failure. Players (and parents) should prepare by packing a variety of food and beverages.
+
+        Choose energy-packed foods such as whole grain crackers with low-fat cheese, tortilla wraps with veggies and lean meat, hard-boiled eggs, vegetable or bean soups, small boxes of non-sugary cereal, fresh fruit, mini-whole wheat bagels with peanut butter, pita bread with hummus or pasta with grilled chicken. Pair any of these options with fruit/vegetable and milk and you’ve got a great meal.
+    type: Label
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA HDCSCN,QODVFI'}
+    name: spacer_12
+    properties: {height: 39.600006103515625}
+    type: Spacer
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA VFYTCR,EIWPUU'}
+    name: label_24
+    properties: {bold: true, text: Healthy food choices > Not-so-healthy food choices}
+    type: Label
+  - layout_properties: {grid_position: 'SKQDXC,VJIBWA RKQQPL,QBIURD'}
+    name: label_25
+    properties:
+      text: |-
+        - Grilled chicken, turkey or fish > Fried chicken or fish
+
+        - Lean beef or pork > Burgers, sausage, bacon
+
+        - Fruits, vegetables, salads, veggie-based soups > French fries, fried rice, Alfredo or cheese sauce
+
+        - Nuts, trail mix, seeds or peanut butter > Chips, cheese curls, pork rinds
+
+        - Eggs or egg substitutes > Omelets loaded with cheese, hash browns and sausage
+
+        - Who grain breads, rice and pasta > Highly processed white bread, rice and pasta
+
+        - Dairy products > Dairy products with excessive added sugars, like ice cream
+    type: Label
+  - layout_properties: {grid_position: 'SKQDXC,QMPOKG FQJNCV,XFZFOB'}
+    name: spacer_17
+    properties: {height: 47.199981689453125}
+    type: Spacer
+  - layout_properties: {grid_position: 'SKQDXC,QMPOKG ELMBAR,OMRWNU'}
+    name: image_9
+    properties: {source: _/theme/images_08.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'SKQDXC,QMPOKG LSDPUD,ENQSFQ'}
+    name: spacer_10
+    properties: {height: 152.60000610351562}
+    type: Spacer
+  - layout_properties: {grid_position: 'SKQDXC,QMPOKG QEXXNA,JIJEBH'}
+    name: image_8
+    properties: {source: _/theme/images_09.jpeg}
+    type: Image
+  - layout_properties: {grid_position: 'URIYPY,BZQECE'}
+    name: label_26
+    properties:
+      text: |-
+        As you get closer to the competition, make your meals smaller, removing fats and dairy products. Fibrous carbohydrates can be beneficial as these tend to cause GI disturbances.
+
+        The key thing with “pre-event” nutrition is making sure that you’ve tested it out before game day. Try the pre-meal/snack protocol in advance to make sure you tolerate it well.
     type: Label
   layout_properties: {slot: default}
   name: column_panel_2

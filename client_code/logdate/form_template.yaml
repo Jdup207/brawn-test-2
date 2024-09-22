@@ -1,0 +1,47 @@
+components:
+- components:
+  - components:
+    - components:
+      - layout_properties: {grid_position: 'AKOCFB,DCFTLD'}
+        name: label_1_copy
+        properties: {align: center, background: 'theme:Primary Container', role: title, text: Logging Date}
+        type: Label
+      - layout_properties: {grid_position: 'DTVTEW,UDAQFR HXLTML,OQUZQI'}
+        name: label_1
+        properties: {bold: true, text: 'Date:'}
+        type: Label
+      - data_bindings:
+        - {code: 'self.item[''date'']', property: text, writeback: true}
+        event_bindings: {pressed_enter: text_box_2_pressed_enter}
+        layout_properties: {grid_position: 'DTVTEW,UDAQFR WZLOJJ,LCIYED'}
+        name: text_box_2
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'DTVTEW,PKDANI WZHCPW,TROZFO'}
+        name: label_2
+        properties: {bold: true, text: Description}
+        type: Label
+      - data_bindings:
+        - {code: 'self.item[''description'']', property: text, writeback: true}
+        layout_properties: {grid_position: 'DTVTEW,PKDANI NQXDVM,WUOCLT'}
+        name: text_box_1
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'DRXQLI,YOTWUQ'}
+        name: spacer_1
+        properties: {height: 90.19998168945312}
+        type: Spacer
+      layout_properties: {grid_position: 'MBZWRP,IIECZE'}
+      name: outlined_card_1_copy
+      properties: {role: outlined-card}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'PLEWWW,LFMBGP'}
+    name: outlined_card_2
+    properties: {role: tonal-card}
+    type: ColumnPanel
+  layout_properties: {grid_position: 'JXWWFE,LDXNPX'}
+  name: content_panel
+  properties: {}
+  type: ColumnPanel
+container: {type: ColumnPanel}
+is_package: true

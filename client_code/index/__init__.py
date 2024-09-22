@@ -12,18 +12,17 @@ class index(indexTemplate):
     self.init_components(**properties)
 
   # Page 2, Any code you write here will run before the form opens.
-  
-  # How to get to my sportpage.
+  # How to get to my sportpage. Sport button
   def outlined_button_1_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('sportpage')
     
-  # How to get to my habitspage.
+  # How to get to my habitspage. habits button
   def habits_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('habitspage')
 
-  # How to get to my management page
+  # How to get to my management page. management button
   def management_button_click(self, **event_args):
     """This method is called when the button is clicked"""
     open_form('managementpage')
